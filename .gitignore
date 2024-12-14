@@ -1,0 +1,54 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled static libraries
+*.lib
+*.a
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Debug files
+*.pdb
+*.ilk
+*.ds_store
+
+# IDE or Editor specific files
+*.vscode/
+*.idea/
+*.code-workspace
+
+# Log and debug output files
+*.log
+*.tmp
+
+# Other ignored files
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Generated files by Make
+*.d
+
+# Remove any additional custom files related to specific environments or build systems below
+build/
+dist/
+*.egg-info/
+*.pyc
+*.pyo
+__pycache__/
