@@ -92,7 +92,8 @@ struct DepthAwareSplayTree {
         static Node *current, *previous;
         current = root;
         previous = nullptr;
-        static int depth = 0;
+        static int depth;
+        depth = 0;
 
         while (current != nullptr) {
             depth++;

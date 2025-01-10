@@ -43,8 +43,8 @@ int main() {
     dast::DepthAwareSplayTree dastTree;
     ost::SplayTree tree;
 
-    int testSize = 100000;
-    int cycle = 10;
+    int testSize = 2000000;
+    int cycle = 5;
 
     // Generate test data
     auto testData = test::generateGradualAccessTest(testSize, cycle);
